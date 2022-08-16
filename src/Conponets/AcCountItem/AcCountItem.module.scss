@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    padding: 9px 0;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgb(234, 234, 234);
+    }
+}
+
+.avartar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0px 12px 0px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #1e1118;
+}
+
+.info-icon {
+    margin-left: 4px;
+}
+
+.username {
+    font-size: 1.4rem;
+    color: rgba(22, 24, 35, 0.9);
+    font-weight: 400;
+}
